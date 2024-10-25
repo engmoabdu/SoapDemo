@@ -1,0 +1,9 @@
+# Use LF for text files
+/mvnw text eol=lf
+*.java text eol=lf
+*.xml text eol=lf
+*.yml text eol=lf
+*.properties text eol=lf
+*.cmd text eol=crlf
+*.sh text eol=lf
+*.txt text eol=lf
