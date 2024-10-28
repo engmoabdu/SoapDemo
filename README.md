@@ -93,16 +93,17 @@ Here’s an example of a SOAP request to create a productEntity:
 
 ```xml
 <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:prod="http://www.learn.com/soapDemo/products">
-   <soapenv:Header/>
-   <soapenv:Body>
-      <prod:createProduct>
-         <prod:productEntity>
-            <prod:id>1</prod:id>
-            <prod:name>Sample Product</prod:name>
-            <prod:price>29.99</prod:price>
-         </prod:productEntity>
-      </prod:createProduct>
-   </soapenv:Body>
+    <soapenv:Header/>
+    <soapenv:Body>
+        <prod:postProductRequest>
+            <prod:product>
+                <prod:id>1</prod:id>
+                <prod:name>Abdu</prod:name>
+                <prod:price>333.00</prod:price>
+                <prod:description>DFDDS</prod:description>
+            </prod:product>
+        </prod:postProductRequest>
+    </soapenv:Body>
 </soapenv:Envelope>
 ```
 
