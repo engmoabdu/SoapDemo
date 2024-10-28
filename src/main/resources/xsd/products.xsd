@@ -12,7 +12,7 @@
     <xs:element name="getProductsResponse">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="products" type="tns:productEntity" maxOccurs="unbounded"/>
+                <xs:element name="products" type="tns:product" maxOccurs="unbounded"/>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
@@ -28,7 +28,7 @@
     <xs:element name="getProductResponse">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="productEntity" type="tns:productEntity"/>
+                <xs:element name="product" type="tns:product"/>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
@@ -44,7 +44,7 @@
     <xs:element name="findProductByIdResponse">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="productEntity" type="tns:productEntity"/>
+                <xs:element name="product" type="tns:product"/>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
@@ -53,19 +53,19 @@
     <xs:element name="postProductRequest">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="productEntity" type="tns:productEntity"/>
+                <xs:element name="product" type="tns:product"/>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
     <xs:element name="postProductResponse">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="productEntity" type="tns:productEntity"/>
+                <xs:element name="product" type="tns:product"/>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
 
-    <xs:complexType name="productEntity">
+    <xs:complexType name="product">
         <xs:sequence>
             <xs:element name="id" type="xs:int"/>
             <xs:element name="name" type="xs:string"/>
