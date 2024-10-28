@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://www.learn.com/soapDemo/gen"
-           targetNamespace="http://www.learn.com/soapDemo/gen" elementFormDefault="qualified">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:tns="http://www.learn.com/soapDemo/products"
+           targetNamespace="http://www.learn.com/soapDemo/products"
+           elementFormDefault="qualified"
+>
 
     <!-- Find All -->
     <xs:element name="getProductsRequest">

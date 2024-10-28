@@ -1,7 +1,7 @@
 package com.learn.soap.demo.service.impl;
 
 import com.learn.soap.demo.entity.ProductEntity;
-import com.learn.soap.demo.gen.*;
+import com.learn.soap.demo.products.*;
 import com.learn.soap.demo.mapper.ProductMapper;
 import com.learn.soap.demo.repository.ProductRepository;
 import com.learn.soap.demo.service.ProductService;
@@ -43,7 +43,7 @@ public class ProductServiceImpl implements ProductService {
     public GetProductsResponse getProducts(GetProductsRequest request) {
         GetProductsResponse response = new GetProductsResponse();
         List<ProductEntity> productEntityModels = productRepository.findAll();
-        List<com.learn.soap.demo.gen.Product> products = productConverter.convertProductModelsToProducts(productEntityModels);
+        List<com.learn.soap.demo.products.Product> products = productConverter.convertProductModelsToProducts(productEntityModels);
         response.getProducts().addAll(products);
         return response;
     }
@@ -51,7 +51,7 @@ public class ProductServiceImpl implements ProductService {
     public PostProductResponse postProducts(PostProductRequest request) {
         PostProductResponse response = new PostProductResponse();
         ProductEntity productEntityModel = productConverter.convertProductToProductModel(request.getProduct());
-        com.learn.soap.demo.gen.Product product = productConverter.convertProductModelToProduct(productRepository.save(productEntityModel));
+        com.learn.soap.demo.products.Product product = productConverter.convertProductModelToProduct(productRepository.save(productEntityModel));
         response.setProduct(product);
         return response;
     }

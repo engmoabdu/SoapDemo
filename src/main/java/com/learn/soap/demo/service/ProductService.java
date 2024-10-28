@@ -1,6 +1,6 @@
 package com.learn.soap.demo.service;
 
-import com.learn.soap.demo.gen.*;
+import com.learn.soap.demo.products.*;
 
 /**
  * @author Mohammed Abdu

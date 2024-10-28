@@ -28,7 +28,7 @@
     </scm>
     <properties>
         <java.version>21</java.version>
-        <generated.code.path>com.learn.soap.demo.gen</generated.code.path>
+        <generated.code.path>com.learn.soap.demo.products</generated.code.path>
     </properties>
     <dependencies>
         <dependency>
