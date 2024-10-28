@@ -1,6 +1,6 @@
 package com.learn.soap.demo.endpoint;
 
-import com.learn.soap.demo.gen.*;
+import com.learn.soap.demo.products.*;
 import com.learn.soap.demo.service.ProductService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.ws.server.endpoint.annotation.Endpoint;

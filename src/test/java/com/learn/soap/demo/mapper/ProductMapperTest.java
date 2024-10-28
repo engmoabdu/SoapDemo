@@ -1,7 +1,7 @@
 package com.learn.soap.demo.mapper;
 
 import com.learn.soap.demo.entity.ProductEntity;
-import com.learn.soap.demo.gen.Product;
+import com.learn.soap.demo.products.Product;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

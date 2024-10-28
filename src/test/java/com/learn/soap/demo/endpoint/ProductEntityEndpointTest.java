@@ -1,6 +1,6 @@
 package com.learn.soap.demo.endpoint;
 
-import com.learn.soap.demo.gen.*;
+import com.learn.soap.demo.products.*;
 import com.learn.soap.demo.service.ProductService;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

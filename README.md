@@ -92,7 +92,7 @@ http://localhost:8080/ws/products.wsdl
 Here’s an example of a SOAP request to create a productEntity:
 
 ```xml
-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:prod="http://www.learn.com/soapDemo/gen">
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:prod="http://www.learn.com/soapDemo/products">
    <soapenv:Header/>
    <soapenv:Body>
       <prod:createProduct>

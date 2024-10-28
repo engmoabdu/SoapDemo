@@ -1,7 +1,7 @@
 package com.learn.soap.demo.service;
 
 import com.learn.soap.demo.entity.ProductEntity;
-import com.learn.soap.demo.gen.*;
+import com.learn.soap.demo.products.*;
 import com.learn.soap.demo.service.impl.ProductServiceImpl;
 import com.learn.soap.demo.repository.ProductRepository;
 import com.learn.soap.demo.mapper.ProductMapper;

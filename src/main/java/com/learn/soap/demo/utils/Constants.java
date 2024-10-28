@@ -10,7 +10,7 @@ public final class Constants {
 
     public static final String UTILITY_CLASS = "Utility class";
 
-    public static final String NAMESPACE_URI = "http://www.learn.com/soapDemo/gen";
+    public static final String NAMESPACE_URI = "http://www.learn.com/soapDemo/products";
 
     private Constants() {
         throw new IllegalStateException(UTILITY_CLASS);
